@@ -21,11 +21,11 @@ it away, so I decided I needed to come up with some sort of project for it.
 
 I recently learned that the [MAME emulator](https://www.mamedev.org/) --
 famous for meticulous re-creations of classic arcade games -- had started adding
-emulation models (or "drivers") for hand-held electronics including toys such as
+emulation models (or "drivers") for hand-held electronics, including toys such as
 [Simon](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=simon) and the
 [Speak & Spell](http://adb.arcadeitalia.net/dettaglio_mame.php?game_name=snspellb&search_id).
 But notably missing from the current list of MAME drivers was the Etch-a-Sketch Animator! 
-Well this sounded like a project -- what if I reverse-engineeried the device, and 
+Well, this sounded like a project -- what if I reverse-engineered the device, and 
 created an emulation model for it, making my own contribution to MAME's extensive
 archive of emulated nostalgia?
 
@@ -104,7 +104,7 @@ is not necessarily limited to):
 - Testing out the above driver with some "dummy" code to see the hardware functioning inside MAME
 - Finally, decapping the uC and attempting to read out its ROM to test the hardware model on the "real" code.
 
-I don't have the most ... _reliable_ ... track record when it comes to finishing projects, so who
+I don't have the most ... _reliable_ track record when it comes to finishing projects, so who
 knows how long all this will take. But I'll give it my best shot! So stay tuned for the next installment,
 coming ... soonish?
 
